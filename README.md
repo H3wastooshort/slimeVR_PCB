@@ -4,7 +4,7 @@
 
 
 ## Schematic
-![the schematic](https://h3wastooshort.github.io/slimeVR_PCB/slimeVR_PCB.svg)
+![the schematic](https://h3wastooshort.github.io/slimeVR_PCB/slimeVR_pcb.svg)
 
 ## PCB
 ![a rendered image of the PCB front](https://h3wastooshort.github.io/slimeVR_PCB/top.png)
