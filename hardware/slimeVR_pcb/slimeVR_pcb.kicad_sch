@@ -6192,6 +6192,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb62837-8ee6-4e77-bb52-acbfded314ab")
+	)
+	(wire
+		(pts
 			(xy 31.75 184.15) (xy 31.75 173.99)
 		)
 		(stroke
@@ -6229,16 +6239,6 @@
 			(type default)
 		)
 		(uuid "5829b2e1-5641-4f72-8427-95fc00c20769")
-	)
-	(wire
-		(pts
-			(xy 85.09 62.23) (xy 93.98 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5843cb3f-adbd-4ac7-b475-c76c1a1fa750")
 	)
 	(wire
 		(pts
@@ -6702,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 77.47) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06ee88e-7ae6-4b42-b2d9-17e2281077d0")
+	)
+	(wire
+		(pts
 			(xy 151.13 72.39) (xy 154.94 72.39)
 		)
 		(stroke
@@ -6769,16 +6779,6 @@
 			(type default)
 		)
 		(uuid "ed843f85-c0a3-46e3-8b75-063350685fa9")
-	)
-	(wire
-		(pts
-			(xy 85.09 64.77) (xy 93.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeff820a-b5bb-47cb-80bc-6370411c0cbb")
 	)
 	(wire
 		(pts
@@ -6880,16 +6880,6 @@
 		)
 		(uuid "25dfbc6f-ec83-4983-bd15-79835bcf72bd")
 	)
-	(label "BAT_CHG"
-		(at 85.09 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27c400dc-6280-4e89-bc2d-7e69b9190ad0")
-	)
 	(label "TCK"
 		(at 90.17 49.53 0)
 		(effects
@@ -6970,6 +6960,16 @@
 		)
 		(uuid "55d742f6-de9a-4390-b635-e4be59c9b7de")
 	)
+	(label "BAT_CHG"
+		(at 142.24 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58b32c69-bd54-4274-9e8f-d1248b56558d")
+	)
 	(label "D+"
 		(at 48.26 45.72 180)
 		(effects
@@ -6989,16 +6989,6 @@
 			(justify left bottom)
 		)
 		(uuid "5cd6bcf6-d3aa-4890-aec5-c1b49d21e36b")
-	)
-	(label "BAT_FULL"
-		(at 85.09 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "605feac7-dfe2-4b4f-8139-af1aa8c03e9a")
 	)
 	(label "D+"
 		(at 90.17 72.39 0)
@@ -7189,6 +7179,16 @@
 			(justify right bottom)
 		)
 		(uuid "c5a2ca6c-05ab-4681-a1df-f4885605e90c")
+	)
+	(label "BAT_FULL"
+		(at 142.24 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cad6a4a2-cc90-4b5b-ac12-3854a06d4b1d")
 	)
 	(label "INT"
 		(at 173.99 113.03 180)
@@ -7730,6 +7730,74 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 128.27 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1251c51e-aa20-4d32-ac26-92b6017a01ba")
+		(property "Reference" "JP3"
+			(at 128.27 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2cd05a8-943f-4b68-ae99-b75fffea5e52")
+		)
+		(pin "2"
+			(uuid "4b542a4d-cdd9-4d65-8865-afcc5cbcd3d2")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -9931,6 +9999,75 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 128.27 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63eab1a0-efe8-4eb6-86ba-be9b31d5a7f4")
+		(property "Reference" "JP4"
+			(at 128.27 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405903bf-0e98-4475-9f83-1354011cf8e6")
+		)
+		(pin "2"
+			(uuid "9243af14-0426-46d4-ac7a-47b391360354")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
