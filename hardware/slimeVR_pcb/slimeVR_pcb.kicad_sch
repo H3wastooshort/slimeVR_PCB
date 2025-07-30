@@ -5724,6 +5724,16 @@
 		)
 		(uuid bb2c0252-0a9b-4459-aee3-e7f9e190baf2)
 	)
+	(text "unused open-drain output connected to GND"
+		(exclude_from_sim no)
+		(at 41.91 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d73304b-93cf-472e-8582-0c1d9b11a58f")
+	)
 	(text "!! pin-compatible to LSM6DSRTR !!"
 		(exclude_from_sim no)
 		(at 248.158 100.584 0)
@@ -5746,7 +5756,7 @@
 	)
 	(text "charging\npads"
 		(exclude_from_sim no)
-		(at 41.148 114.3 0)
+		(at 42.418 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5897,10 +5907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcfe6eee-254e-4217-b873-1d21ad341bba")
-	)
-	(no_connect
-		(at 54.61 95.25)
-		(uuid "42874fc2-eab8-477a-a842-e0b2c676fcee")
 	)
 	(no_connect
 		(at 273.05 115.57)
@@ -6286,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 92.71) (xy 58.42 92.71)
+			(xy 54.61 92.71) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6343,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "74e3e871-42c6-48ba-88ee-2bd3d1d968dd")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.25) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7852d99e-90a9-4bc1-b97e-40830c772b0e")
 	)
 	(wire
 		(pts
@@ -7790,7 +7806,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 50.8 114.3 90)
+		(at 52.07 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7798,7 +7814,7 @@
 		(dnp no)
 		(uuid "17773d27-6629-4a2f-ba18-523df7b165a3")
 		(property "Reference" "TP1"
-			(at 47.498 112.014 90)
+			(at 48.768 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +7822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 47.498 111.76 90)
+			(at 48.768 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +7831,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 50.8 109.22 0)
+			(at 52.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 109.22 0)
+			(at 52.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7849,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 50.8 114.3 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 114.3 90)
+		(at 52.07 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8900,7 +8916,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d5555f8-b403-4fb5-9e17-e5f4314e8a28")
 		(property "Reference" "#PWR046"
-			(at 57.15 114.3 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 114.2999 90)
+			(at 55.88 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +8934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 114.3 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 114.3 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 114.3 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9345,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 114.3 90)
+		(at 33.02 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9337,7 +9353,7 @@
 		(dnp no)
 		(uuid "53f94046-b931-4b14-b144-d9bb2d05c2e3")
 		(property "Reference" "#PWR047"
-			(at 35.56 114.3 0)
+			(at 36.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9362,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 26.924 114.3 0)
+			(at 28.194 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 114.3 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 114.3 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 114.3 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +11833,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 114.3 270)
+		(at 33.02 118.11 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11826,7 +11842,7 @@
 		(dnp no)
 		(uuid "8bbcad26-5567-4858-a434-3e5f2e8a8a73")
 		(property "Reference" "TP2"
-			(at 35.052 112.014 90)
+			(at 36.322 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11834,7 +11850,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 35.052 111.76 90)
+			(at 36.322 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11843,7 +11859,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 31.75 109.22 0)
+			(at 33.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +11868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 109.22 0)
+			(at 33.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11877,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 114.3 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,6 +12663,72 @@
 			(project ""
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7130a0e-ea67-4273-8143-6aceb92e7f30")
+		(property "Reference" "#PWR034"
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebe6a7c-a232-46f6-87e3-060c429af1ad")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14563,7 +14645,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 96.52 0)
+		(at 59.69 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14571,7 +14653,7 @@
 		(dnp no)
 		(uuid "f4d7d2b2-38d9-4fcd-84fd-4076e82bb165")
 		(property "Reference" "R15"
-			(at 60.96 96.52 90)
+			(at 62.23 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14661,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 58.42 96.52 90)
+			(at 59.69 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +14669,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 56.642 96.52 90)
+			(at 57.912 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 96.52 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14687,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 96.52 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14880,7 +14962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 100.33 0)
+		(at 59.69 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14889,7 +14971,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe27a52e-88c6-4881-9f39-36e2f3258ffd")
 		(property "Reference" "#PWR045"
-			(at 58.42 106.68 0)
+			(at 59.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14898,7 +14980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 105.41 0)
+			(at 59.69 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +14988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 100.33 0)
+			(at 59.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +14997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 100.33 0)
+			(at 59.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,7 +15006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 100.33 0)
+			(at 59.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
