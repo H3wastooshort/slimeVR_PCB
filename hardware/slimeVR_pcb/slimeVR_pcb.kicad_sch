@@ -5845,6 +5845,12 @@
 		(uuid "87b0fc40-6e6b-4812-9b04-b27ca571467a")
 	)
 	(junction
+		(at 267.97 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa7edbf-68ef-42f9-bad2-3a0a7643fc4e")
+	)
+	(junction
 		(at 73.66 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6020,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 133.35) (xy 19.05 133.35)
+			(xy 21.59 128.27) (xy 16.51 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6070,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 146.05) (xy 19.05 146.05)
+			(xy 21.59 140.97) (xy 16.51 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6360,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 140.97) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a0a3be-ec1a-4e19-b06e-f29351d71d1c")
+	)
+	(wire
+		(pts
 			(xy 173.99 118.11) (xy 173.99 120.65)
 		)
 		(stroke
@@ -6380,7 +6396,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 133.35) (xy 38.1 133.35)
+			(xy 40.64 128.27) (xy 35.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6390,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 139.7) (xy 19.05 139.7)
+			(xy 21.59 134.62) (xy 16.51 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6430,13 +6446,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 57.15 133.35)
+			(xy 57.15 128.27) (xy 54.61 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98329640-e31b-4c29-b9f1-ed2b30895bcb")
+	)
+	(wire
+		(pts
+			(xy 57.15 147.32) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98be76a5-4d0e-499f-abfe-602098db8ed9")
 	)
 	(wire
 		(pts
@@ -6450,7 +6476,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 139.7) (xy 38.1 139.7)
+			(xy 57.15 140.97) (xy 54.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e9c6b9-28c3-4f8e-8675-07a8d424180f")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 35.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6520,6 +6556,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 147.32) (xy 35.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae401891-2eb4-409b-8bbb-89424bce736a")
+	)
+	(wire
+		(pts
 			(xy 134.62 34.29) (xy 154.94 34.29)
 		)
 		(stroke
@@ -6580,7 +6626,27 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 139.7) (xy 57.15 139.7)
+			(xy 261.62 133.35) (xy 267.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3245798-043d-4bee-9703-b348fb19fc39")
+	)
+	(wire
+		(pts
+			(xy 267.97 133.35) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ffda12-5dcd-4d11-98d7-8439cb15aeff")
+	)
+	(wire
+		(pts
+			(xy 57.15 134.62) (xy 54.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6758,8 +6824,18 @@
 		)
 		(uuid "01b010da-701d-4c65-9e15-e96f154a04de")
 	)
+	(label "EN"
+		(at 35.56 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "143ea676-dbaf-4c73-a8fd-ad5b72fffcef")
+	)
 	(label "INT"
-		(at 19.05 146.05 0)
+		(at 16.51 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6819,7 +6895,7 @@
 		(uuid "35a7c565-f407-4528-b31a-77c94a5f3c48")
 	)
 	(label "SCL_IMU"
-		(at 38.1 139.7 0)
+		(at 35.56 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6829,7 +6905,7 @@
 		(uuid "43aeb266-768e-4baa-b1e4-44eae0ccd599")
 	)
 	(label "SCL"
-		(at 19.05 139.7 0)
+		(at 16.51 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6849,7 +6925,7 @@
 		(uuid "4c435dfb-9e47-42da-b32e-6d2ee52b19d6")
 	)
 	(label "D+"
-		(at 57.15 139.7 0)
+		(at 54.61 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6938,6 +7014,16 @@
 		)
 		(uuid "7a31f191-9590-402c-9a32-daaa0574d25a")
 	)
+	(label "TX"
+		(at 54.61 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b1b1ab6-cdc6-43f4-afc5-895c42a54907")
+	)
 	(label "D-"
 		(at 90.17 74.93 0)
 		(effects
@@ -6979,7 +7065,7 @@
 		(uuid "8aa62784-4e4c-4906-87e8-d324ed760382")
 	)
 	(label "SDA"
-		(at 19.05 133.35 0)
+		(at 16.51 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6989,7 +7075,7 @@
 		(uuid "8c118748-2c1c-40e7-a697-9771fd11c449")
 	)
 	(label "SDA_IMU"
-		(at 38.1 133.35 0)
+		(at 35.56 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7007,6 +7093,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac67da07-4e50-49bf-8826-9781b8dbaf8f")
+	)
+	(label "BOOT"
+		(at 35.56 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4298e1-5d4f-454b-9a35-8f5496214b9e")
 	)
 	(label "TDI"
 		(at 90.17 44.45 0)
@@ -7068,6 +7164,16 @@
 		)
 		(uuid "ba343543-55ad-4efd-8715-243db65b1504")
 	)
+	(label "SCL_IMU"
+		(at 274.32 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5a2ca6c-05ab-4681-a1df-f4885605e90c")
+	)
 	(label "INT"
 		(at 173.99 113.03 180)
 		(effects
@@ -7079,7 +7185,7 @@
 		(uuid "cb6a532a-56ca-4516-a8a0-e64c3c7d3326")
 	)
 	(label "D-"
-		(at 57.15 133.35 0)
+		(at 54.61 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7128,6 +7234,16 @@
 		)
 		(uuid "f3faa4b6-db81-4239-a21c-eb141f802c17")
 	)
+	(label "SDA_IMU"
+		(at 261.62 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f500eda4-b4e3-4cde-ad4f-d39ccdce0055")
+	)
 	(label "BAT_FULL"
 		(at 128.27 180.34 180)
 		(effects
@@ -7157,6 +7273,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd247337-2887-4aa1-b83c-fc4076923894")
+	)
+	(label "RX"
+		(at 54.61 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "feca013f-3e0d-4880-a2c4-a1a703c221a1")
 	)
 	(label "TMS"
 		(at 151.13 69.85 0)
@@ -7344,7 +7470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 38.1 171.196 90)
 			(effects
 				(font
@@ -7381,6 +7507,143 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a11d347-3aa3-4fa2-87e3-8440d9f171c6")
+		(property "Reference" "TP10"
+			(at 45.72 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN"
+			(at 45.72 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c06cd7-29bc-492e-a3fb-4493a215fca7")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 274.32 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d6a10a2-bcd0-4db8-bb94-4f1a096e521b")
+		(property "Reference" "R17"
+			(at 276.86 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 276.86 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 272.542 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51604653-81df-43e2-a5b2-a54a894a3249")
+		)
+		(pin "1"
+			(uuid "66c4f31e-858f-464f-834a-4d6097ed563c")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9589,7 +9852,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 24.13 133.35 270)
+		(at 21.59 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9598,7 +9861,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dca7c25-09ee-411e-bca4-e68270e39ba3")
 		(property "Reference" "TP3"
-			(at 29.21 132.0799 90)
+			(at 26.67 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9870,7 @@
 			)
 		)
 		(property "Value" "SDA"
-			(at 29.21 134.6199 90)
+			(at 26.67 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9879,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 138.43 0)
+			(at 21.59 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 138.43 0)
+			(at 21.59 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9897,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 24.13 133.35 0)
+			(at 21.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10431,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 24.13 146.05 270)
+		(at 21.59 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10177,7 +10440,7 @@
 		(fields_autoplaced yes)
 		(uuid "737f8d01-0493-4f38-9f2d-a4e0e4bfda7c")
 		(property "Reference" "TP5"
-			(at 29.21 144.7799 90)
+			(at 26.67 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10449,7 @@
 			)
 		)
 		(property "Value" "INT"
-			(at 29.21 147.3199 90)
+			(at 26.67 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10458,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 151.13 0)
+			(at 21.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 151.13 0)
+			(at 21.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10476,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 24.13 146.05 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +10696,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 24.13 139.7 270)
+		(at 21.59 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10442,7 +10705,7 @@
 		(fields_autoplaced yes)
 		(uuid "79e6513d-1a55-46bd-9140-f6097cb28f88")
 		(property "Reference" "TP4"
-			(at 29.21 138.4299 90)
+			(at 26.67 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +10714,7 @@
 			)
 		)
 		(property "Value" "SCL"
-			(at 29.21 140.9699 90)
+			(at 26.67 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10723,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 144.78 0)
+			(at 21.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 144.78 0)
+			(at 21.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10741,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 24.13 139.7 0)
+			(at 21.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,6 +11412,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 267.97 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb3bf12-9d32-4fce-96ab-dced15b6ccff")
+		(property "Reference" "#PWR032"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e7292b-7b83-4b47-9406-e8f586716aa0")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 31.75 114.3 270)
 		(mirror x)
@@ -11635,7 +11964,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 133.35 270)
+		(at 57.15 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11644,7 +11973,7 @@
 		(fields_autoplaced yes)
 		(uuid "96fac549-d16e-4317-b377-67749fffbef3")
 		(property "Reference" "TP8"
-			(at 64.77 132.0799 90)
+			(at 62.23 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +11982,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 64.77 134.6199 90)
+			(at 62.23 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11991,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 59.69 138.43 0)
+			(at 57.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +12000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 138.43 0)
+			(at 57.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +12009,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 133.35 0)
+			(at 57.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11921,16 +12250,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 139.7 270)
+		(at 57.15 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aac41f1f-7963-4746-87c0-f44bc81c5594")
-		(property "Reference" "TP7"
-			(at 48.26 138.4299 90)
+		(uuid "aa059c31-8ffb-4717-bf28-e4e0b1fd1687")
+		(property "Reference" "TP12"
+			(at 62.23 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,8 +12267,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "iSCL"
-			(at 48.26 140.9699 90)
+		(property "Value" "TX"
+			(at 62.23 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11948,7 +12277,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 43.18 144.78 0)
+			(at 57.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +12286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 144.78 0)
+			(at 57.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11966,7 +12295,74 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 139.7 0)
+			(at 57.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca11f65a-9be8-4022-a8f7-3dde4f1cd6d3")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac41f1f-7963-4746-87c0-f44bc81c5594")
+		(property "Reference" "TP7"
+			(at 45.72 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "iSCL"
+			(at 45.72 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,6 +12377,73 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae016878-c50f-4df4-9b1a-3a8d3741aec7")
+		(property "Reference" "TP11"
+			(at 45.72 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 45.72 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4fa8e20-1b3b-4617-b098-464d61696984")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12753,16 +13216,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 133.35 270)
+		(at 57.15 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcdf752f-d77a-4ae9-8fc3-31cb48a6d60e")
-		(property "Reference" "TP6"
-			(at 48.26 132.0799 90)
+		(uuid "dc10f037-477f-4de9-9809-a6e26454aaf8")
+		(property "Reference" "TP13"
+			(at 62.23 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,8 +13233,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "iSDA"
-			(at 48.26 134.6199 90)
+		(property "Value" "RX"
+			(at 62.23 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,7 +13243,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 43.18 138.43 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +13252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 138.43 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +13261,74 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 133.35 0)
+			(at 57.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b51f5aa-b527-40fa-add0-cd9bffd4ac78")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcdf752f-d77a-4ae9-8fc3-31cb48a6d60e")
+		(property "Reference" "TP6"
+			(at 45.72 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "iSDA"
+			(at 45.72 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12953,7 +13483,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 139.7 270)
+		(at 57.15 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12962,7 +13492,7 @@
 		(fields_autoplaced yes)
 		(uuid "e385dad0-396b-436c-8690-8e41354851ee")
 		(property "Reference" "TP9"
-			(at 64.77 138.4299 90)
+			(at 62.23 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,7 +13501,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 64.77 140.9699 90)
+			(at 62.23 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,7 +13510,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 59.69 144.78 0)
+			(at 57.15 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +13519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 144.78 0)
+			(at 57.15 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +13528,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 139.7 0)
+			(at 57.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13671,6 +14201,76 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8eb6755-7f1c-4390-b4d7-6f6d982f4c63")
+		(property "Reference" "R16"
+			(at 264.16 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 264.16 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.842 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1545cb0c-672a-476d-aa97-556fc69085cf")
+		)
+		(pin "1"
+			(uuid "4a30ff05-7ef5-44f7-a9e6-12d7f78af6f5")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "R16")
 					(unit 1)
 				)
 			)
