@@ -5744,9 +5744,20 @@
 		)
 		(uuid "66ffa726-32fa-4cd0-b5b3-b62017e91ba1")
 	)
+	(text "V_OC = 140mV ... 180mv\nI_OC > 500mA\n<=>\nR_DS*2 < v_OC / I_OC\nR_DS < (140mV / 500mA) / 2\nR_DS < 280mOhm"
+		(exclude_from_sim no)
+		(at 65.278 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8801879-f8f5-47c1-bdad-6de9eb41904e")
+	)
 	(text "TODO: verify BAT_* never over 3.3V"
 		(exclude_from_sim no)
-		(at 114.808 164.338 0)
+		(at 115.062 191.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12005,7 +12016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c618d96-9a8a-4e6d-a14c-5e72856668e2")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 160.02 26.67 0)
 			(effects
 				(font
@@ -12057,7 +12068,7 @@
 		(instances
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
