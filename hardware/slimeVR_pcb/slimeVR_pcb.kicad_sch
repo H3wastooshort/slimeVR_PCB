@@ -5724,16 +5724,6 @@
 		)
 		(uuid bb2c0252-0a9b-4459-aee3-e7f9e190baf2)
 	)
-	(text "unused open-drain output connected to GND"
-		(exclude_from_sim no)
-		(at 41.91 108.712 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2d73304b-93cf-472e-8582-0c1d9b11a58f")
-	)
 	(text "!! pin-compatible to LSM6DSRTR !!"
 		(exclude_from_sim no)
 		(at 248.158 100.584 0)
@@ -5786,6 +5776,12 @@
 		(uuid "f1ce32cf-f12a-479e-8a4a-bb1d14c602de")
 	)
 	(junction
+		(at 59.69 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "087d4ee2-deb6-4e55-8487-3b84a563582b")
+	)
+	(junction
 		(at 44.45 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5816,16 +5812,16 @@
 		(uuid "1c8ee8b4-ca29-4c7b-b435-e2d4fbed8a5c")
 	)
 	(junction
+		(at 63.5 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f3e5ab-c01c-4da9-9af8-b6546a23fb5b")
+	)
+	(junction
 		(at 57.15 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "255caba4-f981-4ea4-abf5-5e841b8801fb")
-	)
-	(junction
-		(at 57.15 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25a9ccd9-d17f-4069-8f4c-346a2f014931")
 	)
 	(junction
 		(at 31.75 166.37)
@@ -5852,6 +5848,12 @@
 		(uuid "56210b54-18e9-422f-8816-cc88e455e00d")
 	)
 	(junction
+		(at 63.5 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58950256-4f6e-4ea9-9284-2c7538cccc03")
+	)
+	(junction
 		(at 41.91 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5868,6 +5870,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a660c4e-1563-45ec-a564-cd3f54521c08")
+	)
+	(junction
+		(at 57.15 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83beebb2-d0b6-4fec-89d0-ab02122068b2")
 	)
 	(junction
 		(at 31.75 173.99)
@@ -5898,6 +5906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98f8a6d-cf2d-4c69-a3b6-ffbb3b5a9861")
+	)
+	(junction
+		(at 58.42 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc81179-ebff-4f1a-a96c-96a7b760c712")
 	)
 	(junction
 		(at 21.59 90.17)
@@ -6031,6 +6045,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 187.96) (xy 52.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0031e755-b432-4aff-8004-28e42b5308e1")
+	)
+	(wire
+		(pts
 			(xy 57.15 90.17) (xy 57.15 77.47)
 		)
 		(stroke
@@ -6091,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 46.99 184.15)
+			(xy 52.07 187.96) (xy 53.34 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6141,6 +6165,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 190.5) (xy 57.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2963125e-abf7-48e6-a764-748de6414edb")
+	)
+	(wire
+		(pts
 			(xy 21.59 128.27) (xy 16.51 128.27)
 		)
 		(stroke
@@ -6158,6 +6192,16 @@
 			(type default)
 		)
 		(uuid "3026b039-b156-4452-8ce8-2dbdbf703e21")
+	)
+	(wire
+		(pts
+			(xy 73.66 187.96) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3457b4f3-b4eb-4f6d-b00c-7829e282a95e")
 	)
 	(wire
 		(pts
@@ -6291,6 +6335,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 180.34) (xy 59.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5c6603-b07c-4fb4-95a7-69a367b59b99")
+	)
+	(wire
+		(pts
 			(xy 46.99 55.88) (xy 44.45 55.88)
 		)
 		(stroke
@@ -6308,6 +6362,16 @@
 			(type default)
 		)
 		(uuid "4eb62837-8ee6-4e77-bb52-acbfded314ab")
+	)
+	(wire
+		(pts
+			(xy 63.5 187.96) (xy 59.69 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff2c0a8-93ee-4913-bd9e-66befef29985")
 	)
 	(wire
 		(pts
@@ -6351,7 +6415,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 176.53) (xy 54.61 176.53)
+			(xy 58.42 180.34) (xy 55.88 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6461,16 +6525,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 95.25) (xy 54.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7852d99e-90a9-4bc1-b97e-40830c772b0e")
-	)
-	(wire
-		(pts
 			(xy 90.17 36.83) (xy 93.98 36.83)
 		)
 		(stroke
@@ -6561,6 +6615,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 187.96) (xy 58.42 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a7a03d-cc33-469d-be10-bd89495b1840")
+	)
+	(wire
+		(pts
 			(xy 21.59 77.47) (xy 21.59 90.17)
 		)
 		(stroke
@@ -6578,6 +6642,16 @@
 			(type default)
 		)
 		(uuid "98329640-e31b-4c29-b9f1-ed2b30895bcb")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.25) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9857c194-7ea6-4bf0-a728-411765616322")
 	)
 	(wire
 		(pts
@@ -6641,6 +6715,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 176.53) (xy 54.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a410af2b-93a0-4f65-9c31-2c6f7683a5bf")
+	)
+	(wire
+		(pts
+			(xy 59.69 187.96) (xy 59.69 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41b642a-5d15-40bd-a304-48cb7bb001a9")
+	)
+	(wire
+		(pts
 			(xy 105.41 177.8) (xy 105.41 180.34)
 		)
 		(stroke
@@ -6658,6 +6752,16 @@
 			(type default)
 		)
 		(uuid "aa4d4097-543c-4e1b-b8e1-7f9fa1e8f7af")
+	)
+	(wire
+		(pts
+			(xy 63.5 184.15) (xy 67.31 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa704b6-a785-4469-99c9-d27b5f69333d")
 	)
 	(wire
 		(pts
@@ -6711,6 +6815,36 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 180.34) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12db717-a1c9-41f4-929b-b5941c352e28")
+	)
+	(wire
+		(pts
+			(xy 55.88 190.5) (xy 55.88 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f5d2f7-e8f0-47c4-a992-e191afc564d9")
+	)
+	(wire
+		(pts
+			(xy 52.07 184.15) (xy 31.75 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91e4452-d84b-4f00-8074-55be87ed6357")
+	)
+	(wire
+		(pts
 			(xy 59.69 40.64) (xy 52.07 40.64)
 		)
 		(stroke
@@ -6738,6 +6872,16 @@
 			(type default)
 		)
 		(uuid "bf8cf593-894b-4466-9a87-896e3f00eff0")
+	)
+	(wire
+		(pts
+			(xy 63.5 187.96) (xy 63.5 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e58321-5d49-4602-a165-7c6fdfd6dd50")
 	)
 	(wire
 		(pts
@@ -6781,6 +6925,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 190.5) (xy 57.15 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7d3423-f1e4-423a-b1c9-a6e7e0cd5bae")
+	)
+	(wire
+		(pts
+			(xy 57.15 190.5) (xy 55.88 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a8f2b2-28dc-45d3-878d-5f0fb8226b4c")
+	)
+	(wire
+		(pts
 			(xy 41.91 166.37) (xy 46.99 166.37)
 		)
 		(stroke
@@ -6798,6 +6962,16 @@
 			(type default)
 		)
 		(uuid "da6532b5-4f2d-44b4-aec8-ae32bcb3e6fe")
+	)
+	(wire
+		(pts
+			(xy 58.42 184.15) (xy 57.15 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db729467-c5fd-4d9e-ad2b-cc85681505a0")
 	)
 	(wire
 		(pts
@@ -6871,6 +7045,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 186.69) (xy 57.15 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8262729-d98b-45bb-a968-2d72c69c5a9f")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 154.94 67.31)
 		)
 		(stroke
@@ -6901,7 +7085,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 176.53) (xy 59.69 176.53)
+			(xy 59.69 184.15) (xy 58.42 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f9e459-b22f-437d-b9a5-16b36a6bcfff")
+	)
+	(wire
+		(pts
+			(xy 68.58 180.34) (xy 59.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6928,6 +7122,16 @@
 			(type default)
 		)
 		(uuid "f6fac736-bf53-4012-af90-4d25b75f17ca")
+	)
+	(wire
+		(pts
+			(xy 58.42 187.96) (xy 58.42 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82a4736-4ab8-45d2-a050-a6a2d8b38375")
 	)
 	(wire
 		(pts
@@ -8113,7 +8317,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 52.07 181.61 270)
+		(at 58.42 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8121,7 +8325,7 @@
 		(dnp no)
 		(uuid "1b7f96bc-9841-4123-b9d9-e8e6bdc2817e")
 		(property "Reference" "Q1"
-			(at 52.07 191.77 90)
+			(at 58.42 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8333,7 @@
 			)
 		)
 		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 57.15 188.976 90)
+			(at 63.5 192.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +8341,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
-			(at 52.07 186.69 0)
+			(at 58.42 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 186.69 0)
+			(at 58.42 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8359,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 52.07 181.61 0)
+			(at 58.42 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,6 +8728,73 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cd12dbf-1d38-473c-a400-0504724aa2f7")
+		(property "Reference" "TP14"
+			(at 57.15 109.9819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V_FLT"
+			(at 57.15 112.5219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162f9021-ec01-4143-827c-287bc405b0c5")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8941,6 +9212,73 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b4890fc-bf76-433a-baf5-07622aea6764")
+		(property "Reference" "#PWR035"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708e3b9e-5bd5-46ec-96b5-7a0cab649e11")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10109,6 +10447,75 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 115.57 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ab914c9-285b-4145-a574-9c880a857ec0")
+		(property "Reference" "JP3"
+			(at 115.57 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e4ccd2-2d01-4c20-b6ec-0f2dad6ae04a")
+		)
+		(pin "2"
+			(uuid "f62f7327-432c-4392-8f27-58b3be77f2ec")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -12208,7 +12615,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 62.23 181.61 90)
+		(at 68.58 185.42 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12218,7 +12625,7 @@
 		(fields_autoplaced yes)
 		(uuid "9055fde1-07e1-4eba-945c-def146ee0835")
 		(property "Reference" "Q1"
-			(at 62.23 191.77 90)
+			(at 68.58 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12633,7 @@
 			)
 		)
 		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 62.23 189.23 90)
+			(at 68.58 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12642,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
-			(at 62.23 186.69 0)
+			(at 68.58 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 186.69 0)
+			(at 68.58 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12660,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 62.23 181.61 0)
+			(at 68.58 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,72 +13179,6 @@
 			(project ""
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7130a0e-ea67-4273-8143-6aceb92e7f30")
-		(property "Reference" "#PWR034"
-			(at 54.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bebe6a7c-a232-46f6-87e3-060c429af1ad")
-		)
-		(instances
-			(project "slimeVR_pcb"
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13578,6 +13919,73 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 111.76 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf370191-c9c3-4263-b83c-27c14fc741e5")
+		(property "Reference" "#PWR054"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 107.95 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27f227a-bbe7-4d0d-8d59-960b3dc2df38")
+		)
+		(instances
+			(project "slimeVR_pcb"
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
