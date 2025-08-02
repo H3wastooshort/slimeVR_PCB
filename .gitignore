@@ -30,3 +30,7 @@ fp-info-cache
 *.xml
 *.csv
 
+
+hardware/slimeVR_pcb/production
+
+
