@@ -5960,10 +5960,6 @@
 		(uuid "24d0e590-bd12-4778-8723-cc061ddfa048")
 	)
 	(no_connect
-		(at 93.98 34.29)
-		(uuid "30166268-0cd3-41cf-8877-292573537975")
-	)
-	(no_connect
 		(at 124.46 69.85)
 		(uuid "401d689d-c59d-493c-b260-bed5920f1eea")
 	)
@@ -6522,6 +6518,16 @@
 			(type default)
 		)
 		(uuid "74e3e871-42c6-48ba-88ee-2bd3d1d968dd")
+	)
+	(wire
+		(pts
+			(xy 81.28 34.29) (xy 93.98 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784606f8-a214-440f-a35a-e85c7af88f61")
 	)
 	(wire
 		(pts
@@ -7213,6 +7219,16 @@
 		)
 		(uuid "35a7c565-f407-4528-b31a-77c94a5f3c48")
 	)
+	(label "VBUS_FAULT"
+		(at 54.61 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c23bcb1-9709-46ae-b737-befdcde2c805")
+	)
 	(label "SCL_IMU"
 		(at 35.56 134.62 0)
 		(effects
@@ -7522,6 +7538,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf167f28-7a9f-4622-beaf-c6fd71441f29")
+	)
+	(label "VBUS_FAULT"
+		(at 81.28 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d302b553-8d01-45ad-a63f-728ae51015e7")
 	)
 	(label "SCL"
 		(at 273.05 107.95 0)
@@ -8752,7 +8778,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V_FLT"
+		(property "Value" "VBUS_FLT"
 			(at 57.15 112.5219 0)
 			(effects
 				(font
