@@ -11218,7 +11218,7 @@
 		(descr "ESP32-S2-WROVER(-I) 2.4 GHz Wi-Fi https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf")
 		(tags "ESP32-S2  ESP32  WIFI")
 		(property "Reference" "U1"
-			(at 10.64 -18.905 180)
+			(at -10.36 -13.905 180)
 			(layer "F.SilkS")
 			(uuid "23ac5392-6b77-435e-88d9-726ba9f513d4")
 			(effects
@@ -15858,6 +15858,18 @@
 		(layer "Edge.Cuts")
 		(uuid "ca2df253-e9dc-4596-ae89-c737ef445fa2")
 	)
+	(gr_text "@H3wastooshort\n/slimeinator"
+		(at 169 38.5 0)
+		(layer "F.SilkS")
+		(uuid "292c2599-7466-4788-80a6-8939f1aa3c30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-"
 		(at 177.25 72.9 0)
 		(layer "B.SilkS")
@@ -15882,6 +15894,30 @@
 				(bold yes)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "Slimeinator v0"
+		(at 164 38 0)
+		(layer "B.SilkS")
+		(uuid "5c9fe66a-c655-481f-a60e-6ff6a5198d0c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Project: LilyFox, H3, Elios\nSchematic & Layout: H3"
+		(at 164 40 0)
+		(layer "B.SilkS")
+		(uuid "c7be6be6-611c-4a46-af39-d67a3a1576f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top mirror)
 		)
 	)
 	(segment
