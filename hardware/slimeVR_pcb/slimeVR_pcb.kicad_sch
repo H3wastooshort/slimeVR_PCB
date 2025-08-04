@@ -3722,408 +3722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual NMOS transistor, 8 pin package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:ICM-45686"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5451,6 +5049,449 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "slime_parts:8205A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.604 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "8205A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.pn-silicon.com/uploads/pdf/20200420/4051bc1b2da6483b34af5fee2c132e6c.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V Dual N-Channel MOSFET, drains connected internally."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "8205A_0_1"
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -3.81 0) (xy -3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 1.778) (xy -5.588 -0.762) (xy -2.032 -0.762) (xy -2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.588 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.778) (xy -6.096 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.286) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.524) (xy -3.429 0.508) (xy -4.191 0.508) (xy -3.81 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 0.889)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -0.381) (xy -3.429 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -0.762) (xy -4.064 -0.381) (xy -4.064 -1.143) (xy -3.429 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.778) (xy -4.318 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.286) (xy -5.715 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.778) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.286) (xy 5.715 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.778) (xy 4.318 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -0.381) (xy 3.429 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -0.762) (xy 4.064 -0.381) (xy 4.064 -1.143) (xy 3.429 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.286) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.524) (xy 3.429 0.508) (xy 4.191 0.508) (xy 3.81 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 0.889)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.778) (xy 6.096 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -0.762) (xy 2.032 -0.762) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.588 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 0) (xy 3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "8205A_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 7.62 270)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "slime_parts:TPS25200DRVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5812,6 +5853,12 @@
 		(uuid "255caba4-f981-4ea4-abf5-5e841b8801fb")
 	)
 	(junction
+		(at 67.31 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31336a3c-be18-473c-b620-fce0f3ef48f3")
+	)
+	(junction
 		(at 31.75 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5878,12 +5925,6 @@
 		(uuid "b98f8a6d-cf2d-4c69-a3b6-ffbb3b5a9861")
 	)
 	(junction
-		(at 57.15 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc7643a6-8452-4a76-8a2c-5597c94fe680")
-	)
-	(junction
 		(at 21.59 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5894,18 +5935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2560127-4690-440f-aea1-82034dbd8be7")
-	)
-	(junction
-		(at 67.31 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3464be5-3be7-4447-b73a-dd68b3f58161")
-	)
-	(junction
-		(at 57.15 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8023dbd-b7bf-4f8a-a1d9-fe9a5a6ae320")
 	)
 	(junction
 		(at 134.62 34.29)
@@ -6147,16 +6176,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 184.15) (xy 57.15 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35092fa9-3aeb-4d03-b5cc-469f9f36efd3")
-	)
-	(wire
-		(pts
 			(xy 151.13 74.93) (xy 154.94 74.93)
 		)
 		(stroke
@@ -6184,16 +6203,6 @@
 			(type default)
 		)
 		(uuid "38497e46-a3f8-45ba-ab84-6eba43cad972")
-	)
-	(wire
-		(pts
-			(xy 52.07 176.53) (xy 54.61 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e508df-10bc-4041-adf7-5bd7abdc70fb")
 	)
 	(wire
 		(pts
@@ -6387,6 +6396,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 176.53) (xy 59.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f68e3f-feb6-4e55-adf9-5ad8d3bf5452")
+	)
+	(wire
+		(pts
 			(xy 129.54 39.37) (xy 124.46 39.37)
 		)
 		(stroke
@@ -6427,13 +6446,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 176.53) (xy 59.69 176.53)
+			(xy 53.34 176.53) (xy 54.61 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fb468fc-f784-4906-bbd1-61f97066e946")
+		(uuid "6cfae435-5cd9-48d5-8c2d-170c33892f96")
 	)
 	(wire
 		(pts
@@ -6477,7 +6496,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 34.29) (xy 93.98 34.29)
+			(xy 83.82 34.29) (xy 93.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6627,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 184.15) (xy 31.75 184.15)
+			(xy 31.75 184.15) (xy 48.26 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6724,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "aefe474f-2afa-4c26-bb22-ed32328ed4d8")
+	)
+	(wire
+		(pts
+			(xy 15.24 146.05) (xy 21.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b035116f-8668-4b3f-9870-d460665db240")
 	)
 	(wire
 		(pts
@@ -6887,6 +6916,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 184.15) (xy 67.31 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8138eab-9add-47b4-9f02-7d15e4181424")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 154.94 67.31)
 		)
 		(stroke
@@ -6995,6 +7034,16 @@
 		)
 		(uuid "2f61b22a-2dd4-42c2-a8ea-96e05339a4b6")
 	)
+	(label "VBUS_FLT"
+		(at 54.61 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "355608fd-b626-4dc6-8981-8070c1203802")
+	)
 	(label "BOOT"
 		(at 124.46 34.29 0)
 		(effects
@@ -7004,16 +7053,6 @@
 			(justify left bottom)
 		)
 		(uuid "35a7c565-f407-4528-b31a-77c94a5f3c48")
-	)
-	(label "VBUS_FAULT"
-		(at 54.61 96.52 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c23bcb1-9709-46ae-b737-befdcde2c805")
 	)
 	(label "SCL_IMU"
 		(at 35.56 134.62 0)
@@ -7195,6 +7234,16 @@
 		)
 		(uuid "8c118748-2c1c-40e7-a697-9771fd11c449")
 	)
+	(label "VBUS_FLT"
+		(at 15.24 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f65f21c-d86e-4ccb-9825-375e9f0d0b8d")
+	)
 	(label "SDA_IMU"
 		(at 35.56 128.27 0)
 		(effects
@@ -7325,8 +7374,8 @@
 		)
 		(uuid "cf167f28-7a9f-4622-beaf-c6fd71441f29")
 	)
-	(label "VBUS_FAULT"
-		(at 81.28 34.29 0)
+	(label "VBUS_FLT"
+		(at 83.82 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7676,7 +7725,7 @@
 		(at 40.64 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7746,7 +7795,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d6a10a2-bcd0-4db8-bb94-4f1a096e521b")
 		(property "Reference" "R17"
 			(at 276.86 135.8899 0)
@@ -7758,12 +7806,11 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 276.86 138.4299 0)
+			(at 274.32 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -7825,7 +7872,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ed0a802-68b5-49b3-af47-2b757c2c9441")
 		(property "Reference" "R13"
 			(at 207.01 30.4799 0)
@@ -7837,12 +7883,11 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 207.01 33.0199 0)
+			(at 204.47 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -8049,7 +8094,7 @@
 		(dnp no)
 		(uuid "18d745e8-2479-4b86-b37e-fa6c709afe23")
 		(property "Reference" "R5"
-			(at 152.4 186.69 90)
+			(at 152.4 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8102,7 @@
 			)
 		)
 		(property "Value" "1k68"
-			(at 152.4 184.15 90)
+			(at 152.4 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,91 +8221,6 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 52.07 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b7f96bc-9841-4123-b9d9-e8e6bdc2817e")
-		(property "Reference" "Q1"
-			(at 52.07 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 57.15 188.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
-			(at 52.07 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 52.07 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ff26b71-1378-4ec6-9204-e2a1399e4745")
-		)
-		(pin "5"
-			(uuid "a121e802-0df5-4282-840c-8ce3f30e48bf")
-		)
-		(pin "6"
-			(uuid "f7197a93-a05d-45c0-9d0d-0794e19e6e03")
-		)
-		(pin "3"
-			(uuid "05b4864f-94e1-4e36-b024-9179bf57fb8e")
-		)
-		(pin "8"
-			(uuid "6faf0c5d-d045-48b4-b820-a4aa3704457f")
-		)
-		(pin "7"
-			(uuid "0610039b-5a97-48fe-901a-718d64caa5b8")
-		)
-		(pin "1"
-			(uuid "37f4eb24-c0f1-4e25-bead-d9b9e828fdce")
-		)
-		(pin "4"
-			(uuid "d5a835d3-7873-409c-9d33-625252cbff88")
-		)
-		(instances
-			(project "slimeVR_pcb"
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8601,34 +8561,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 54.61 107.95 180)
+		(at 21.59 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd12dbf-1d38-473c-a400-0504724aa2f7")
 		(property "Reference" "TP14"
-			(at 57.15 109.9819 0)
+			(at 26.67 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "VBUS_FLT"
-			(at 57.15 112.5219 0)
+			(at 26.67 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 107.95 0)
+			(at 21.59 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 107.95 0)
+			(at 21.59 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8606,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 54.61 107.95 0)
+			(at 21.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,6 +8761,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 92.71 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 93.0274 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,10 +9154,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b9daf47-4b4c-40bb-b63d-db9026c9af0b")
 		(property "Reference" "R10"
-			(at 133.35 45.72 90)
+			(at 133.35 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +9164,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 133.35 43.18 90)
+			(at 133.35 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9297,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "43ccc6f1-4338-4e20-ad98-1b05b3f182d9")
 		(property "Reference" "R12"
 			(at 194.31 30.4799 0)
@@ -9332,12 +9308,11 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 194.31 33.0199 0)
+			(at 191.77 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -9558,7 +9533,7 @@
 		(dnp no)
 		(uuid "5302d873-13da-481a-ba62-0634686aea06")
 		(property "Reference" "R2"
-			(at 36.83 160.02 90)
+			(at 36.83 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9541,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 36.83 162.56 90)
+			(at 36.83 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "300k"
 			(at 25.4 95.25 90)
 			(effects
 				(font
@@ -10616,7 +10591,7 @@
 		(at 21.59 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11213,7 +11188,7 @@
 		(at 21.59 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11478,7 +11453,7 @@
 		(at 21.59 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11617,7 +11592,7 @@
 		(dnp no)
 		(uuid "7f595947-79e3-40f1-9d24-a2fc885054e4")
 		(property "Reference" "R4"
-			(at 116.84 186.69 90)
+			(at 116.84 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11600,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 116.84 184.15 90)
+			(at 116.84 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,10 +11892,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80216b41-1d87-433d-8132-4b06b3aa9987")
 		(property "Reference" "R3"
-			(at 116.84 168.91 90)
+			(at 116.586 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +11902,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 116.84 171.45 90)
+			(at 116.586 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,6 +12088,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2286"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 110.8075 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d8c1837-a994-42de-9692-307f6f5b27e2")
 		)
@@ -12238,10 +12230,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8804d8ce-9daa-45ce-a233-9a88d53a3633")
 		(property "Reference" "R9"
-			(at 62.23 33.0199 0)
+			(at 61.214 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,12 +12241,11 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 62.23 35.5599 0)
+			(at 59.69 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -12642,94 +12632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 62.23 181.61 90)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9055fde1-07e1-4eba-945c-def146ee0835")
-		(property "Reference" "Q1"
-			(at 62.23 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 62.23 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
-			(at 62.23 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 62.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ff26b71-1378-4ec6-9204-e2a1399e4746")
-		)
-		(pin "5"
-			(uuid "a121e802-0df5-4282-840c-8ce3f30e48c0")
-		)
-		(pin "6"
-			(uuid "f7197a93-a05d-45c0-9d0d-0794e19e6e04")
-		)
-		(pin "3"
-			(uuid "05b4864f-94e1-4e36-b024-9179bf57fb8f")
-		)
-		(pin "8"
-			(uuid "6faf0c5d-d045-48b4-b820-a4aa37044580")
-		)
-		(pin "7"
-			(uuid "0610039b-5a97-48fe-901a-718d64caa5b9")
-		)
-		(pin "1"
-			(uuid "37f4eb24-c0f1-4e25-bead-d9b9e828fdcf")
-		)
-		(pin "4"
-			(uuid "d5a835d3-7873-409c-9d33-625252cbff89")
-		)
-		(instances
-			(project "slimeVR_pcb"
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "Q1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 116.84 90)
 		(unit 1)
@@ -12931,7 +12833,7 @@
 		(at 57.15 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13177,10 +13079,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0cd3a44-ac7c-421c-9c26-3a0db491245e")
 		(property "Reference" "R1"
-			(at 69.85 176.5299 0)
+			(at 69.342 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,12 +13090,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 69.85 179.0699 0)
+			(at 67.31 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -13266,7 +13166,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "300k"
 			(at 128.27 80.01 90)
 			(effects
 				(font
@@ -13330,7 +13230,7 @@
 		(at 57.15 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13397,7 +13297,7 @@
 		(at 40.64 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13464,7 +13364,7 @@
 		(at 40.64 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13949,6 +13849,89 @@
 		)
 	)
 	(symbol
+		(lib_id "slime_parts:8205A")
+		(at 57.15 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be72245f-33a9-48b4-ab86-38943f175650")
+		(property "Reference" "Q1"
+			(at 57.15 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8205A"
+			(at 57.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.pn-silicon.com/uploads/pdf/20200420/4051bc1b2da6483b34af5fee2c132e6c.pdf"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V Dual N-Channel MOSFET, drains connected internally."
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762931"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "89e807dd-4373-477f-8c5d-3ccbbb6257fe")
+		)
+		(pin "3"
+			(uuid "36b64964-6b13-40fd-b033-dc8af904df7d")
+		)
+		(pin "6"
+			(uuid "fcab5139-0b8c-4d8d-8580-8ad5c3c107b4")
+		)
+		(pin "1"
+			(uuid "cb1883d2-3d26-42b3-b4dc-2d22cc296985")
+		)
+		(instances
+			(project ""
+				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 128.27 77.47 90)
 		(unit 1)
@@ -13965,7 +13948,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "300k"
 			(at 128.27 77.47 90)
 			(effects
 				(font
@@ -14099,10 +14082,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "caf9ceb0-e6c1-42a2-a88e-9788e7fb4fed")
 		(property "Reference" "R8"
-			(at 54.61 35.5599 0)
+			(at 53.594 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,12 +14093,11 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 54.61 38.0999 0)
+			(at 52.07 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -14587,6 +14568,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2289"
+			(at 140.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2289"
+			(at 139.3825 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7127ff14-1cc5-4b60-9ee5-354451f39f85")
 		)
@@ -14673,7 +14672,7 @@
 		(at 57.15 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14740,7 +14739,7 @@
 		(at 40.64 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14940,7 +14939,7 @@
 		(at 57.15 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15123,6 +15122,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2288"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2288"
+			(at 110.8075 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15721,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8eb6755-7f1c-4390-b4d7-6f6d982f4c63")
 		(property "Reference" "R16"
 			(at 264.16 135.8899 0)
@@ -15716,12 +15732,11 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 264.16 138.4299 0)
+			(at 261.62 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
