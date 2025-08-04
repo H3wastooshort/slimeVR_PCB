@@ -15316,8 +15316,8 @@
 		(uuid "761d04dc-4a9c-42b3-ad13-d42615220f15")
 	)
 	(gr_rect
-		(start 144 36.5)
-		(end 183 77.5)
+		(start 143 35.5)
+		(end 183 78.5)
 		(stroke
 			(width 0.05)
 			(type default)
