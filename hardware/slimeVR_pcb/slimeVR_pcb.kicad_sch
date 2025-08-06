@@ -387,363 +387,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Conn_ARM_JTAG_SWD_10"
-				(at -2.54 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-				(at -8.89 -31.75 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_ARM_JTAG_SWD_10_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -2.794 -12.7)
-					(end -2.286 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 12.7)
-					(end 0.254 11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 9.144 2.286)
-					(end 10.16 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -0.254)
-					(end 9.144 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.794)
-					(end 9.144 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_ARM_JTAG_SWD_10_1_1"
-				(rectangle
-					(start 9.144 -5.334)
-					(end 10.16 -4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "KEY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "GNDDetect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VTref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "SWCLK/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SWDIO/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SWO/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "NC/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -5913,12 +5556,6 @@
 		(uuid "8aa7edbf-68ef-42f9-bad2-3a0a7643fc4e")
 	)
 	(junction
-		(at 167.64 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9051447e-84af-4423-8898-d411c043891b")
-	)
-	(junction
 		(at 29.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5993,10 +5630,6 @@
 		(uuid "79c80a74-6f64-4c9d-b932-beb964b6fe75")
 	)
 	(no_connect
-		(at 93.98 54.61)
-		(uuid "7ce61d6e-575e-43b0-993b-de9bf61a6ae5")
-	)
-	(no_connect
 		(at 124.46 62.23)
 		(uuid "8e919807-9fa2-47c1-9e16-f0a8cc3f75b0")
 	)
@@ -6033,10 +5666,6 @@
 		(uuid "ed44f67c-d5e2-47d9-9324-0aaa1b786748")
 	)
 	(no_connect
-		(at 93.98 52.07)
-		(uuid "f07b2577-0d23-49f0-8821-fbbee7d57d11")
-	)
-	(no_connect
 		(at 93.98 31.75)
 		(uuid "fb126bf1-9177-4037-96f8-6570309cccb6")
 	)
@@ -6053,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "047be0f9-22fc-49cb-b6f4-94f957f120a2")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 93.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dc0523-d153-4526-b16d-2a758323f95d")
 	)
 	(wire
 		(pts
@@ -6176,16 +5815,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 154.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ee124d-5c5d-4aee-851c-cd06674701b4")
-	)
-	(wire
-		(pts
 			(xy 40.64 166.37) (xy 41.91 166.37)
 		)
 		(stroke
@@ -6246,16 +5875,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403e88ac-d888-4329-87c0-da8657ca5111")
-	)
-	(wire
-		(pts
 			(xy 44.45 43.18) (xy 44.45 45.72)
 		)
 		(stroke
@@ -6283,6 +5902,16 @@
 			(type default)
 		)
 		(uuid "449d99b4-4c19-4720-bc85-a270eaa2e57a")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 93.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45536585-b1d8-4053-9c22-52199fcfa6f9")
 	)
 	(wire
 		(pts
@@ -6373,26 +6002,6 @@
 			(type default)
 		)
 		(uuid "596f6a6a-6fdb-4a38-97a5-6e143af0a41f")
-	)
-	(wire
-		(pts
-			(xy 151.13 62.23) (xy 154.94 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf7f2c3-8fd4-4be8-9598-8c7b3b67f803")
-	)
-	(wire
-		(pts
-			(xy 151.13 69.85) (xy 154.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ecac8ec-e389-4336-a011-04776dbb5b5a")
 	)
 	(wire
 		(pts
@@ -6866,16 +6475,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 154.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e13767-0851-4a47-b1f2-4955a36a761d")
-	)
-	(wire
-		(pts
 			(xy 90.17 46.99) (xy 93.98 46.99)
 		)
 		(stroke
@@ -6923,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "e8138eab-9add-47b4-9f02-7d15e4181424")
-	)
-	(wire
-		(pts
-			(xy 151.13 67.31) (xy 154.94 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6dbb80-0036-48a3-880f-fb6aa1243cb3")
 	)
 	(wire
 		(pts
@@ -7134,16 +6723,6 @@
 		)
 		(uuid "5b6b95d1-eff5-4d9f-9dcb-81163ef806a1")
 	)
-	(label "EN"
-		(at 151.13 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cd6bcf6-d3aa-4890-aec5-c1b49d21e36b")
-	)
 	(label "D+"
 		(at 90.17 72.39 0)
 		(effects
@@ -7244,6 +6823,26 @@
 		)
 		(uuid "8f65f21c-d86e-4ccb-9825-375e9f0d0b8d")
 	)
+	(label "CC1"
+		(at 44.45 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "956c317a-55b5-40c3-87c6-c6d6b4ff1ce7")
+	)
+	(label "CC1"
+		(at 90.17 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a325f273-dce0-4502-a6c1-976fe52b2de8")
+	)
 	(label "SDA_IMU"
 		(at 35.56 128.27 0)
 		(effects
@@ -7324,15 +6923,15 @@
 		)
 		(uuid "b666464a-a3fc-470b-b75f-5fdbf2c65d61")
 	)
-	(label "TDO"
-		(at 151.13 72.39 0)
+	(label "CC2"
+		(at 44.45 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ba343543-55ad-4efd-8715-243db65b1504")
+		(uuid "c26d8fb1-33ed-4c1a-8609-12dc1c7f4dd9")
 	)
 	(label "SCL_IMU"
 		(at 274.32 140.97 270)
@@ -7404,15 +7003,15 @@
 		)
 		(uuid "dd86586c-1ce4-4f6d-9212-1f138bd889ef")
 	)
-	(label "TCK"
-		(at 151.13 67.31 0)
+	(label "CC2"
+		(at 90.17 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e738e717-63cd-4bed-9c1d-77c4fb94c8aa")
+		(uuid "f0d9d66b-6d37-4433-9a1e-abb043bb87fb")
 	)
 	(label "SCL_IMU"
 		(at 226.06 135.89 180)
@@ -7454,16 +7053,6 @@
 		)
 		(uuid "fab90431-3a83-4d60-9eca-6d9cc9d99fe8")
 	)
-	(label "TDI"
-		(at 151.13 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd247337-2887-4aa1-b83c-fc4076923894")
-	)
 	(label "RX"
 		(at 54.61 147.32 0)
 		(effects
@@ -7473,16 +7062,6 @@
 			(justify left bottom)
 		)
 		(uuid "feca013f-3e0d-4880-a2c4-a1a703c221a1")
-	)
-	(label "TMS"
-		(at 151.13 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff6c95ea-e2c1-4952-b75f-e4aa16da5d57")
 	)
 	(symbol
 		(lib_id "Battery_Management:TP4057")
@@ -7656,7 +7235,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09359f56-ac3b-4103-816e-30fb5d3d1c04")
@@ -9594,101 +9173,6 @@
 			(project "slimeVR_pcb"
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 167.64 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "5385ecea-b7e4-40fc-88ff-46e7df413900")
-		(property "Reference" "J3"
-			(at 178.816 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 179.07 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 176.53 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22086bba-ade7-469e-8c61-c7d8f2819f48")
-		)
-		(pin "2"
-			(uuid "fbe24831-f8f5-4d31-a01d-40dcbf3c3eae")
-		)
-		(pin "3"
-			(uuid "2097d951-9c03-4b64-b667-9c846ee0fb36")
-		)
-		(pin "5"
-			(uuid "6d04e246-3fe8-4991-ad6e-ec8e98653a4e")
-		)
-		(pin "10"
-			(uuid "031a615e-958e-42a1-972f-7e2ca20de473")
-		)
-		(pin "4"
-			(uuid "a039dcbb-b7aa-47e6-870a-1dbfb99a5ded")
-		)
-		(pin "9"
-			(uuid "cd42430b-8092-471e-a0a6-646666ad46e4")
-		)
-		(pin "6"
-			(uuid "3b58e5b4-9ff2-4f4d-924f-cadaca6a0c60")
-		)
-		(pin "8"
-			(uuid "c1390a68-2e82-4cc5-8e71-cdbf500cac3d")
-		)
-		(pin "7"
-			(uuid "2eaa75cb-e00d-4308-b2b5-79f8c0a23f42")
-		)
-		(instances
-			(project ""
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12044,7 +11528,7 @@
 				)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "yellow"
 			(at 110.8075 170.18 0)
 			(effects
 				(font
@@ -12088,16 +11572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
-			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2286"
+		(property "LCSC" " C2296"
 			(at 110.8075 167.64 0)
 			(effects
 				(font
@@ -13154,9 +12629,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a819e5bb-87d6-468f-a7db-918d12919cef")
 		(property "Reference" "R19"
 			(at 128.27 82.55 90)
@@ -13936,9 +13411,9 @@
 		(at 128.27 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf2ce901-77eb-4b6c-87ac-68f6e94647ec")
 		(property "Reference" "R18"
 			(at 128.27 74.93 90)
@@ -14442,72 +13917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d58a2b61-79f1-4a71-bdcc-aaa708da1474")
-		(property "Reference" "#PWR021"
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "058a1173-760c-42a1-8494-69fed4c6dc32")
-		)
-		(instances
-			(project "slimeVR_pcb"
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 140.97 39.37 0)
 		(unit 1)
@@ -14524,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "yellow"
 			(at 139.3825 44.45 0)
 			(effects
 				(font
@@ -14568,16 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2289"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2289"
+		(property "LCSC" " C2296"
 			(at 139.3825 46.99 0)
 			(effects
 				(font
@@ -15085,7 +14485,7 @@
 				)
 			)
 		)
-		(property "Value" "blue"
+		(property "Value" "white"
 			(at 110.8075 185.42 0)
 			(effects
 				(font
@@ -15129,16 +14529,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2288"
-			(at 109.22 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2288"
+		(property "LCSC" "C34499"
 			(at 110.8075 187.96 0)
 			(effects
 				(font
@@ -15290,72 +14681,6 @@
 			(project ""
 				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 167.64 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efdae48b-23bd-461f-aebe-fd2b9441cdb9")
-		(property "Reference" "#PWR022"
-			(at 167.64 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 167.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fbf2d35-7079-4f1d-9428-633cb142b902")
-		)
-		(instances
-			(project "slimeVR_pcb"
-				(path "/3cc72b9d-9220-40d8-b418-3d89bef5117e"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
