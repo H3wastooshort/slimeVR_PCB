@@ -15906,7 +15906,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Project: LilyFox, H3, Elios\nSchematic & Layout: H3"
+	(gr_text "Project: LilyFox, H3, Eleos\nSchematic & Layout: H3"
 		(at 164 40 0)
 		(layer "B.SilkS")
 		(uuid "c7be6be6-611c-4a46-af39-d67a3a1576f3")
