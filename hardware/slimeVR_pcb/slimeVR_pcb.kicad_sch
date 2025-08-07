@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3cc72b9d-9220-40d8-b418-3d89bef5117e")
 	(paper "A4")
+	(title_block
+		(title "Slimeinator")
+		(rev "v0")
+		(comment 1 "Schematic & Layout: H3")
+		(comment 2 "Project: LilyFox, H3, Eleos")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:DW01A"
 			(exclude_from_sim no)
