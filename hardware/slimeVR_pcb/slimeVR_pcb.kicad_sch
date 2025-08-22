@@ -8357,16 +8357,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2290"
-			(at 92.71 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2290"
+		(property "LCSC" "C34499"
 			(at 93.0274 137.16 0)
 			(effects
 				(font
@@ -11582,7 +11573,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2296"
+		(property "LCSC" "C2296"
 			(at 110.8075 167.64 0)
 			(effects
 				(font
@@ -13987,7 +13978,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2296"
+		(property "LCSC" "C2296"
 			(at 139.3825 46.99 0)
 			(effects
 				(font
